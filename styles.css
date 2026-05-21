@@ -25,6 +25,7 @@
 .dashBoard{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: rgb(173, 209, 240);
 }
 
 .projects{
@@ -38,4 +39,22 @@
     grid-template-columns: 50% 50%;
     gap: 10px;
     margin:8px;
+}
+
+.icon{
+    width: 30px;
+}
+
+.topHalf, .bottomHalf{
+    display: flex;
+    justify-content: space-between;
+}
+
+#searchBar{
+    width: min(200px, 50%);
+}
+
+.announcementBlock, .trendingBlock{
+    background-color: white;
+    border-radius: 10px;
 }
