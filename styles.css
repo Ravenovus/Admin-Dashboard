@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin:1px;
     padding: 0;
 }
 
@@ -12,20 +12,28 @@
 }
 
 .sideBar{
-    background-color: blue;
+    background-color: rgb(81, 97, 241);
     grid-column: 1/2;
     grid-row: 1/4;
+    display:flex;
+    flex-direction: column;
 }
 
 .topBar{
     background-color: gray;
     grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:8px;
+    margin-bottom: 0;
 }
 
 .dashBoard{
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: rgb(173, 209, 240);
+    margin-top: 0;
 }
 
 .projects{
@@ -48,6 +56,7 @@
 .topHalf, .bottomHalf{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #searchBar{
@@ -58,3 +67,97 @@
     background-color: white;
     border-radius: 10px;
 }
+
+ul{
+    color: white;
+    margin:8px;
+    padding-left: 32px;
+    list-style: none;
+
+}
+
+.sideTitle{
+    font-size: 32px;
+}
+
+button{
+    background-color: rgb(81, 97, 241);
+    color:white;
+    padding:8px;
+    border: 0px;
+    border-radius: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#l0{
+    padding: 5px 50px;
+    background-image: url("icons/view-dashboard.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+#l1{
+    padding: 5px 50px;
+    background-image: url("icons/home.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l2{
+    padding: 5px 50px;
+    background-image: url("icons/card-account-details-outline.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l3{
+    padding: 5px 50px;
+    background-image: url("icons/message.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l4{
+    padding: 5px 50px;
+    background-image: url("icons/clock-time-four.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l5{
+    padding: 5px 50px;
+    background-image: url("icons/file-document-multiple.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l6{
+    padding: 5px 50px;
+    background-image: url("icons/account-group.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l7{
+    padding: 5px 50px;
+    background-image: url("icons/cog.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l8{
+    padding: 5px 50px;
+    background-image: url("icons/help-box-outline.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#l9{
+    padding: 5px 50px;
+    background-image: url("icons/shield-check.svg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+
